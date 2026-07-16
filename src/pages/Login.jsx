@@ -19,7 +19,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
-    
+
     if (!email || !password) {
       setError('Please fill in all credentials.');
       return;
@@ -123,8 +123,8 @@ const Login = () => {
         <div className="mt-8 pt-6 border-t border-white/5 text-center">
           <p className="text-gray-500 text-xs leading-relaxed">
             Demo Credentials:<br />
-            Admin: <code className="text-gray-300">admin@carepulse.com</code> / password<br />
-            Client: <code className="text-gray-300">user@carepulse.com</code> / password
+            Admin: <code className="text-gray-300">admin@carepulse.com</code> / Admin@123<br />
+            Client: <code className="text-gray-300">user@carepulse.com</code> / User@123
           </p>
         </div>
       </div>
